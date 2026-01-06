@@ -2,7 +2,7 @@
     {
         "field": "project_name",
         "help": {
-            "description": "A name for the project, for example 'My Project'.",
+            "description": "A name for the project, for example 'My New Project'.",
             "more_information": ""
         }
     },
