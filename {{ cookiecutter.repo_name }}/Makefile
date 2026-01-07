@@ -39,6 +39,7 @@ requirements:
 	pixi install
 {% endif %}
 {% endif %}
+	nbstripout --install
 
 
 ## Delete all compiled Python files

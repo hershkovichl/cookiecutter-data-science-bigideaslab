@@ -20,6 +20,8 @@ from ccds.hook_utils.dependencies import (
 #
 packages_to_install = copy(packages)
 
+packages_to_install += ['nbstripout']
+
 # {% if cookiecutter.dataset_storage.s3 %}
 packages_to_install += ["awscli"]
 # {% endif %} #
