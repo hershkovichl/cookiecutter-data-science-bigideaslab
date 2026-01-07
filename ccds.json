@@ -12,8 +12,8 @@
         {"gcs": {"bucket": "bucket-name"}}
     ],
     "environment_manager": [
-        "virtualenv",
         "conda",
+        "virtualenv",
         "pipenv",
         "uv",
         "pixi",
@@ -21,8 +21,8 @@
         "none"
     ],
     "dependency_file": [
-        "requirements.txt",
         "pyproject.toml",
+        "requirements.txt",
         "environment.yml",
         "Pipfile",
         "pixi.toml"
