@@ -58,6 +58,11 @@ To understand how to fully utilize the template, I recommend you read CCDS's phi
 
 Importantly, check out ["Using the template"](https://cookiecutter-data-science.drivendata.org/using-the-template/) for detailed instructions on how to fully utilize the template. 
 
+# Using Notebooks
+Use the following jupyter notebook magic to make sure latest changes to imported .py files don't require restarting the kernel to take into effect
+
+%load_ext autoreload
+%autoreload 2
 
 
 # Making Changes to this template
